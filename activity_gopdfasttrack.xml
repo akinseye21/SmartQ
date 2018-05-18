@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ndif_yemmanuel.smart_q.gopdfasttrack">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doctor2"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your selection:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#563ba6"
+        android:paddingBottom="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAITAMA DISTRICT HOSPITAL"
+        android:textSize="20dp"
+        android:textColor="#563ba6"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#563ba6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultation service"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#563ba6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOPD Fast-Track"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#563ba6"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Fee: N2,500"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:textColor="#4c0066"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Pay with card\nDebit or Credit card"
+        android:textAllCaps="false"
+        android:textColor="#563ba6"
+        android:textStyle="bold"
+        android:background="#ececfb"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/creditcard"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Pay with my Wallet\nBalance: N2500"
+        android:textAllCaps="false"
+        android:textColor="#563ba6"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="#ececfb"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/wallet2"/>
+
+</LinearLayout>

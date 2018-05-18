@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ndif_yemmanuel.smart_q.maitama_details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hospital2"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You Selected:"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:textColor="#563ba6"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAITAMA DISTRICT HOSPITAL"
+                android:layout_gravity="center"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#563ba6"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your details:"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:textColor="#563ba6"
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name: "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/fname_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name: "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/lname_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DOB:\t\t\t\t\t "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/dob_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:\t\t\t\t  "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/phone_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:\t\t\t\t  "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/email_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:\t\t   "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/address_passed"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital ID:\t   "
+                    android:textSize="15dp"
+                    android:textColor="#563ba6"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".................."
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/hospitalid_passed"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="#dc73ff"
+                android:layout_marginLeft="20dp"
+                android:text="Go back to edit this"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:drawableLeft="@drawable/logout"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/backbtn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Fee: N500"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="\tPay with card\n\tDebit or Credit card"
+                android:textAllCaps="false"
+                android:textColor="#dc736f"
+                android:textStyle="bold"
+                android:background="#ececfb"
+                android:padding="10dp"
+                android:layout_marginLeft="30dp"
+                android:drawableLeft="@drawable/creditcard"
+                android:id="@+id/paycard"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="\tPay with my Wallet\n\tBalance: N2500"
+                android:textAllCaps="false"
+                android:textColor="#dc736f"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="#ececfb"
+                android:padding="10dp"
+                android:layout_marginLeft="30dp"
+                android:drawableLeft="@drawable/wallet2"
+                android:id="@+id/paywallet"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

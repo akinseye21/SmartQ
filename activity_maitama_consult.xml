@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ndif_yemmanuel.smart_q.maitama_consult">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doctor2"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your selection:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#563ba6"
+        android:paddingBottom="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAITAMA DISTRICT HOSPITAL"
+        android:textSize="20dp"
+        android:textColor="#563ba6"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select a consultation service"
+        android:textStyle="bold"
+        android:textColor="#563ba6"
+        android:paddingTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ececfb"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GOPD (8am - 2pm)"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:id="@+id/gopd1"
+                    android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GOPD   (after 2pm)"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/gopd2"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GOPD FastTrack"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/gopdfasttrack"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    N2,500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Antenatal                 "
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/antenatal"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gynae          "
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/gynae"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="              N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOPD / SOPD         "
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/mopdsopd"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dental                "
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/dental"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="       N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Physiotherapy        "
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:id="@+id/physiotherapy"
+                        android:textColor="#563ba6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N500"
+                        android:paddingLeft="130dp"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="#4c0066"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

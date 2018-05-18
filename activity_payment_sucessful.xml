@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.ndif_yemmanuel.smart_q.PaymentSucessful">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:textColor="@color/colorPrimary"
+        android:background="#ffffff"
+        android:text="Close this page"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:id="@+id/closepage"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checked"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Your payment\n was successful"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="160dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is your token. Please write it down\n\t\t\t and present it at the hospital"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="290dp"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button"
+        android:text="12899045678"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:id="@+id/transaction_text"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="340dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A copy of this token can be found in \n \t\t\t\tyour transaction history"
+        android:textColor="#ffffff"
+        android:textStyle="italic|bold"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="450dp"/>
+
+</RelativeLayout>

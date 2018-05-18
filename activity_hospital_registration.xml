@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.ndif_yemmanuel.smart_q.HospitalRegistration">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hospital2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You selected:"
+        android:textColor="#806bbc"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAITAMA DISTRICT HOSPITAL"
+        android:textColor="#806bbc"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="87dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your registration details"
+        android:textColor="#806bbc"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="105dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#806bbc"
+        android:layout_marginTop="120dp"/>
+
+
+    <LinearLayout
+        android:paddingTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First name:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:id="@+id/firstname"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last name:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="11dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:id="@+id/lastname"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="27dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="11dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:id="@+id/dob"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="11dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:id="@+id/phone"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="290dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="71dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="11dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:id="@+id/email"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingTop="330dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginLeft="11dp"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="#ececfb"
+            android:id="@+id/address"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital No:"
+            android:textColor="#806bbc"
+            android:textStyle="bold"
+            android:paddingLeft="35dp"/>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:background="#ececfb"
+            android:layout_marginLeft="11dp"
+            android:id="@+id/hospital_id"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:background="#806bbc"
+        android:text="submit"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:id="@+id/submit_btn"
+        />
+
+</RelativeLayout>

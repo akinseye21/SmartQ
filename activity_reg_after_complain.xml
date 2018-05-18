@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ndif_yemmanuel.smart_q.RegAfterComplain">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hospital2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/doc2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your health care provider"
+        android:layout_centerHorizontal="true"
+        android:textColor="#563ba6"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/doc2"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/healthpro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Before sending your complain, kindly select one health care provider"
+        android:textStyle="italic"
+        android:textColor="#a30"
+        android:gravity="center"
+        android:layout_below="@+id/healthpro"
+        android:id="@+id/mew"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MAITAMA DISTRICT HOSPITAL\n\tN500"
+        android:textColor="#563ba6"
+        android:background="@drawable/select_hospital"
+        android:layout_below="@+id/mew"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:padding="15dp"
+        android:drawableRight="@drawable/direction"
+        android:id="@+id/btnmaitama"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ASOKORO DISTRICT HOSPITAL\n\tN500"
+        android:textColor="#563ba6"
+        android:background="@drawable/select_hospital"
+        android:layout_below="@+id/btnmaitama"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:padding="15dp"
+        android:drawableRight="@drawable/direction"
+        android:id="@+id/btnasokoro"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GARKI DISTRICT HOSPITAL\n\tN500"
+        android:textColor="#563ba6"
+        android:background="@drawable/select_hospital"
+        android:layout_below="@+id/btnasokoro"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:padding="15dp"
+        android:drawableRight="@drawable/direction"
+        android:id="@+id/btngarki"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonhelp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/helpbutton"
+        android:text="I need some help using this app"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
